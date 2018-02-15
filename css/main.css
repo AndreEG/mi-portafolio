@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+/*estilos de fondo*/
+
+.image-backgroung{
+  height: 100vh;
+  background-image: url(../assets/img/porta-01.png);
+  background-size: cover;
+}
+
+/*estilos a navbar*/
+
+.nav-dinamic{
+  color: white;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-dinamic ul{
+  outline: 1px solid red;
+}
+
+.nav-dinamic li{
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+
+/*estilos a about me*/
+
+.aboutme-2{
+  background-color: #e4e4e4;
+  padding: 5% 10%;
+}
+
+/*estilos a my jobs*/
+
+/*estilos a contact me*/
+
+/**/
+
+/**/
+
+/**/
