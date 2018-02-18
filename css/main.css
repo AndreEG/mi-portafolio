@@ -17,10 +17,6 @@ img{
   width: 100%;
 }
 
-h2{
-  margin: 0;
-}
-
 /*estilos de fondo*/
 
 .image-backgroung{
@@ -64,10 +60,12 @@ h2{
 
 /*estilos a my jobs*/
 
-.my-jobs{
-}
-
 /*estilos a contact me*/
+
+.contact-me{
+  background-image: url(../assets/img/fondo-estrellas.jpg);
+  background-size: cover;
+}
 
 /**/
 
