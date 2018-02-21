@@ -145,7 +145,7 @@ padding-top: 20px;
 }
 
 .image-backgroung div{
-  outline: 1px solid red;
+
   text-align: center;
 }
 
@@ -160,7 +160,6 @@ padding-top: 20px;
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 .animate-1 { 
-  outline: 1px solid red;
 	border-right: .1em solid black;
 	width: 16.5em; 
 	width: 4ch;
@@ -170,6 +169,7 @@ padding-top: 20px;
   blink-caret .2s step-end infinite alternate;
   margin: auto; 
 }
+
 
 /* .cont-1 {
   width: 100% ;
@@ -272,6 +272,13 @@ padding-top: 20px;
   text-align: right;
 }
 
+.my-jobs a{
+  cursor: pointer;
+}
+
+.jobs-margin{
+  margin-bottom: 40px;
+}
 /*estilos a contact me*/
 
 .contact-me{
@@ -305,7 +312,6 @@ padding-top: 20px;
   }
   
   .image-backgroung div{
-    outline: 1px solid red;
     position: relative;
     top: 25%;
   }
@@ -325,7 +331,6 @@ padding-top: 20px;
   }
   
   .image-backgroung div{
-    outline: 1px solid red;
     position: relative;
     top: 50%;
     transform: translateY(-60%);
