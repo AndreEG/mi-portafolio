@@ -233,6 +233,10 @@ padding-top: 20px;
   color: white;
 }
 
+.aboutme-data{
+  margin: 15px 0;
+}
+
 /*estilos a my jobs*/
 
 .my-jobs{
@@ -274,8 +278,19 @@ padding-top: 20px;
   background-image: url(../assets/img/fondo-estrellas.jpg);
   background-size: cover;
   color: white;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
   margin-top: -50px;
+  text-align: center;
+}
+
+.contact-me h4{
+  font-size: 24px;
+}
+
+.icon-size{
+  font-size: 40px;
+  color: white;
+  margin: 10px;
 }
 
 /*media querys*/
