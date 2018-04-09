@@ -267,6 +267,7 @@ padding-top: 20px;
 .my-jobs h3{
   color: rgb(126, 1, 105);
   font-weight: 600;
+  text-align: center;
 }
 
 .right-aling{
@@ -280,6 +281,37 @@ padding-top: 20px;
 .jobs-margin{
   margin-bottom: 40px;
 }
+
+
+.margin-row-jobs{
+  margin: 0 7%;
+}
+
+.paddingcero{
+  padding: 0;
+}
+
+.btn-repo{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-repo:hover{
+  background-color: rgb(163, 162, 162);
+  border: 1px solid rgb(163, 162, 162);
+  color: black;
+}
+
+.buttons-jobs{
+  margin: auto;
+  text-align: center
+}
+
+.parrafo-pad{
+  padding: 20px 0 20px 0;
+}
+
 /*estilos a contact me*/
 
 .contact-me{
