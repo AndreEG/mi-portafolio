@@ -35,6 +35,14 @@ p{
   font-size: 17px;
 }
 /*estilos a navbar*/
+
+.nav-menu{
+  width: 46px;
+  height: 45px;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: white;/*fondo del icono menu*/
+}
 #toggle {
   display: inline-block;
   width: 28px;
@@ -60,7 +68,7 @@ p{
 #toggle span:before {
   width: 100%;
   height: 5px;
-  background-color: #888;
+  background-color: rgb(126, 1, 105); /* color del icono menu */
   transition: all 0.3s;
   backface-visibility: hidden;
   border-radius: 2px;
@@ -79,15 +87,14 @@ p{
 #toggle.on + #menu {
   opacity: 1;
   visibility: visible;
+  background-color: white; /*fondo del menu*/
 }
 
 #menu {
   position: absolute;
-  right: 0px;
-  top: 20px; /*-20 ver?*/
-  color: #999;
-  width: 150px;
-  padding: 10px;
+  right: 20px;
+  top: 65px; /*-20 ver?*/
+  width: 120px;
   margin: auto;
   text-align: right;
   border-radius: 4px;
@@ -104,7 +111,7 @@ ul, li, li a {
 }
 li a {
   padding: 10px;
-  color: #888;
+  color: rgb(126, 1, 105); /*color de la letra del menu*/
   text-decoration: none;
   transition: all .2s;
   font-size: 18px;
@@ -113,7 +120,7 @@ li a {
 li a:hover,
 li a:focus {
   background: rgb(126, 1, 105);
-  color: #fff;
+  color: white;
 }
 
 header{
@@ -352,6 +359,13 @@ padding-top: 20px;
   color: #333333;
 }
 
+
+/*estilos al modal*/
+.modal-body h4{
+  color: rgb(126, 1, 105);
+  font-weight: 700;
+}
+
 /*media querys*/
 
 
@@ -375,8 +389,8 @@ padding-top: 20px;
   #menu{
     width: 350px;
     position: absolute;
-    right: 45px;
-    top: -20px; /*-20 ver?*/
+    right: 65px;
+    top: 20px; /*-20 ver?*/
     text-align: center;
   }
 }
