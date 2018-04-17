@@ -1,6 +1,7 @@
 window.addEventListener('load', function() {
     var hello = document.getElementById('hello')
     //aqui agregarle la clase de animacion
+    hello.classList.add('animate-1')
     //prueba
     var theToggle = document.getElementById('toggle');
   
