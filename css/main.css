@@ -37,9 +37,9 @@ p{
 /*estilos a navbar*/
 
 .nav-menu{
-  width: 46px;
-  height: 45px;
-  padding: 9px;
+  width: 48px;
+  height: 47px;
+  padding: 10px;
   border-radius: 5px;
   background-color: white;/*fondo del icono menu*/
 }
@@ -87,20 +87,19 @@ p{
 #toggle.on + #menu {
   opacity: 1;
   visibility: visible;
-  background-color: white; /*fondo del menu*/
 }
 
 #menu {
   position: absolute;
   right: 20px;
   top: 65px; /*-20 ver?*/
-  width: 120px;
   margin: auto;
   text-align: right;
   border-radius: 4px;
   opacity: 0;
   visibility: hidden;
   transition: opacity .4s;
+  background-color: rgb(126, 1, 105); /*fondo del menu*/  
 }
 
 ul, li, li a {
@@ -111,16 +110,15 @@ ul, li, li a {
 }
 li a {
   padding: 10px;
-  color: rgb(126, 1, 105); /*color de la letra del menu*/
+  color: white; /*color de la letra del menu*/
   text-decoration: none;
   transition: all .2s;
   font-size: 18px;
   font-weight: 900;
 }
-li a:hover,
-li a:focus {
-  background: rgb(126, 1, 105);
-  color: white;
+li a:hover{
+  background: white;
+  color: rgb(126, 1, 105);
 }
 
 header{
@@ -389,7 +387,7 @@ padding-top: 20px;
   #menu{
     width: 350px;
     position: absolute;
-    right: 65px;
+    right: 67px;
     top: 20px; /*-20 ver?*/
     text-align: center;
   }
