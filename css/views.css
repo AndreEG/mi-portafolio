@@ -34,191 +34,32 @@ h3{
 p{
   font-size: 17px;
 }
-/*estilos a navbar*/
 
-.nav-menu{
-  width: 48px;
-  height: 47px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: white;/*fondo del icono menu*/
-}
-#toggle {
-  display: inline-block;
-  width: 28px;
+/*estilos a title*/
+
+.title{
+  margin-bottom: 100px;
 }
 
-#toggle span:after,
-#toggle span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -9px;
-}
-#toggle span:after{
-  top: 9px;
-}
-#toggle span {
-  position: relative;
-  display: block;
+.title h1{
+  margin: 40px 0;
 }
 
-#toggle span,
-#toggle span:after,
-#toggle span:before {
-  width: 100%;
-  height: 5px;
-  background-color: rgb(126, 1, 105); /* color del icono menu */
-  transition: all 0.3s;
-  backface-visibility: hidden;
-  border-radius: 2px;
-}
+/*estilos a solution*/
 
-/* on activation */
-#toggle.on span {
-  background-color: transparent;
-}
-#toggle.on span:before {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-#toggle.on span:after {
-  transform: rotate(-45deg) translate(7px, -8px);
-}
-#toggle.on + #menu {
-  opacity: 1;
-  visibility: visible;
-}
-
-#menu {
-  position: absolute;
-  right: 20px;
-  top: 65px; /*-20 ver?*/
-  margin: auto;
-  text-align: right;
-  border-radius: 4px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .4s;
-  background-color: rgb(126, 1, 105); /*fondo del menu*/  
-}
-
-ul, li, li a {
-  list-style: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-li a {
-  padding: 10px;
-  color: white; /*color de la letra del menu*/
-  text-decoration: none;
-  transition: all .2s;
-  font-size: 18px;
-  font-weight: 900;
-}
-li a:hover{
-  background: white;
-  color: rgb(126, 1, 105);
-}
-
-header{
-  position: fixed;
-  right: 0;
-  z-index: 1000;
-}
-
-.row-nav{
-padding-right: 20px;
-padding-top: 20px;
-}
-
-/*estilos a home*/
-
-.home{
-  color: white;
-}
-
-.image-backgroung{
-  width: 100%;
-  height: 110vh;
-  background-image: url(../assets/img/fondod.png);
-  background-size: cover;
-}
-
-.image-backgroung img{
-  margin-top: 65px;
-}
-
-.image-backgroung div{
-
-  text-align: center;
-}
-
-.image-backgroung div h2, .image-backgroung div h3{
-  margin: 8px 0;
-}
-
-
-/*animacion a el texto*/
-
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-.animate-1 { 
-	border-right: .1em solid black;
-	width: 16.5em; 
-	width: 4ch;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 2s steps(4, end),
-  blink-caret .2s step-end infinite alternate;
-  margin: auto; 
-}
-
-
-/* .cont-1 {
-  width: 100% ;
-  background-color : transparent;
-  margin: 0 auto;
-  transform: rotateZ();
-  
-}
-.cont-2{
-  transform: rotateZ(6deg);
-  width: 120%;
-  margin: -60px;
-   display: flex;
-  justify-content: center;
-}
-.cont-3 {
-  padding:70px 0;
-  height:100px;
-  margin-top :50px;
-  font-size: 25px;
-   text-transform: capitalize;
-  transform: rotateZ(-5deg);
-  height: 100vh;
-} */
-
-/*estilos a about me*/
-
-.about-me{
-  text-align: center;
-}
-
-.aboutme-1{
+.solution{
   -webkit-transform: skewY(-4deg);
   -moz-transform: skewY(-4deg);
   -ms-transform: skewY(-4deg);
   -o-transform: skewY(-4deg);
   transform: skewY(-4deg);
-  background-color: white;
-  padding: 40px 0;
-  margin-top: -50px;
-  color: #333333;
+  background-image: url(../assets/img/fondo-estrellas.jpg);
+  background-size: cover;
+  padding: 100px 0 200px 0;
+  color: white;
 }
 
-.aboutme-text-1{
+.solution-text{
   -webkit-transform: skewY(4deg);
   -moz-transform: skewY(4deg);
   -ms-transform: skewY(4deg);
@@ -226,26 +67,14 @@ padding-top: 20px;
   transform: skewY(4deg);
 }
 
-.aboutme-1 p{
+.solution p{
   font-size: 20px;
   margin: 20px 0;
 }
 
-.aboutme-2{
-  background-image: url(../assets/img/fondo-estrellas.jpg);
-  background-size: cover;
-  padding: 100px 0;
-  margin-top: -50px;
-  color: white;
-}
+/*estilos lection*/
 
-.aboutme-data{
-  margin: 15px 0;
-}
-
-/*estilos a my jobs*/
-
-.my-jobs{
+.other{
   color: #333333;
   background-color: white;
   -webkit-transform: skewY(4deg);
@@ -254,7 +83,15 @@ padding-top: 20px;
   -o-transform: skewY(4deg);
   transform: skewY(4deg);
   padding: 50px 0;
-  margin-top: -50px;
+  margin-top: -100px;
+}
+
+.other-text{
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
 }
 
 .first-div{
