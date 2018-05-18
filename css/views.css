@@ -72,6 +72,26 @@ p{
   margin: 20px 0;
 }
 
+.icon-container{
+  overflow: hidden;
+}
+
+.icon-description{
+  width: 100px;
+  height: 100px;
+  float: left;
+  outline: 3px solid red;
+  }
+
+.col-icon{
+  color: white;
+  height: 70px;
+}
+
+.icon-container p{
+  margin: 0;
+}
+
 /*estilos lection*/
 
 .other{
