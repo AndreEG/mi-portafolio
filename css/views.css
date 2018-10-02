@@ -45,6 +45,29 @@ p{
   margin: 40px 0;
 }
 
+
+/*back*/
+
+.back{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 1000;
+  text-align: center;
+  cursor: pointer
+}
+
+.back .fa-arrow-left{
+  color: rgb(126, 1, 105);
+  font-size: 35px;
+  margin: 7px;
+  
+}
+
 /*estilos a solution*/
 
 .solution{
@@ -80,11 +103,11 @@ p{
   width: 100px;
   height: 100px;
   float: left;
-  outline: 3px solid red;
+  text-align: center
+  /*outline: 3px solid red;*/
   }
 
 .col-icon{
-  color: white;
   height: 70px;
 }
 
@@ -92,9 +115,9 @@ p{
   margin: 0;
 }
 
-/*estilos lection*/
+/*estilos tools*/
 
-.other{
+.tools{
   color: #333333;
   background-color: white;
   -webkit-transform: skewY(4deg);
@@ -106,13 +129,45 @@ p{
   margin-top: -100px;
 }
 
-.other-text{
+.tools-text{
   -webkit-transform: skewY(-4deg);
   -moz-transform: skewY(-4deg);
   -ms-transform: skewY(-4deg);
   -o-transform: skewY(-4deg);
   transform: skewY(-4deg);
 }
+
+/*estilos lection*/
+
+.lection{
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  background-image: url(../assets/img/fondo-estrellas.jpg);
+  background-size: cover;
+  padding: 100px 0 200px 0;
+  color: white;
+}
+
+.lection-text{
+  -webkit-transform: skewY(4deg);
+  -moz-transform: skewY(4deg);
+  -ms-transform: skewY(4deg);
+  -o-transform: skewY(4deg);
+  transform: skewY(4deg);
+}
+
+.lection p{
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/*Estilos a other*/
+
+
+
 
 .first-div{
   -webkit-transform: skewY(-4deg);
