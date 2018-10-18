@@ -310,11 +310,16 @@ padding-top: 20px;
 
 .buttons-jobs{
   margin: auto;
-  text-align: center
+  text-align: right;
+
+}
+
+.buttons-jobs input{
+  /*background-color: rgb(126, 1, 105);*/
 }
 
 .parrafo-pad{
-  padding: 20px 0 20px 0;
+  padding: 20px 0 5px 0;
 }
 
 /*estilos a contact me*/

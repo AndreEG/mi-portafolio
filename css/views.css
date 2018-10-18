@@ -42,9 +42,16 @@ p{
 }
 
 .title h1{
-  margin: 40px 0;
+  margin: 60px 0 40px 0;
 }
 
+.btn-demo{
+  text-align: right;
+}
+
+.buttons-j{
+  text-align: right;
+}
 
 /*back*/
 
@@ -97,15 +104,22 @@ p{
 
 .icon-container{
   overflow: hidden;
+  text-align: center;
+  margin: 50px 0 25px 0;
 }
 
 .icon-description{
   width: 100px;
   height: 100px;
-  float: left;
-  text-align: center
+  display: inline-block;
+  /*float: left;*/
+  text-align: center;
   /*outline: 3px solid red;*/
   }
+
+.ou{
+  fill: red
+}
 
 .col-icon{
   height: 70px;
@@ -125,7 +139,7 @@ p{
   -ms-transform: skewY(4deg);
   -o-transform: skewY(4deg);
   transform: skewY(4deg);
-  padding: 50px 0;
+  padding: 70px 0 100px 0;
   margin-top: -100px;
 }
 
@@ -147,7 +161,7 @@ p{
   transform: skewY(-4deg);
   background-image: url(../assets/img/fondo-estrellas.jpg);
   background-size: cover;
-  padding: 100px 0 200px 0;
+  padding: 100px 0 100px 0;
   color: white;
 }
 
@@ -166,8 +180,17 @@ p{
 
 /*Estilos a other*/
 
+.jobs2{
+  margin-bottom: 70px;
+}
 
+.other-sub h3{
+  text-align: center
+}
 
+.other-text{
+  margin-top: 50px;
+}
 
 .first-div{
   -webkit-transform: skewY(-4deg);
@@ -209,39 +232,26 @@ p{
 }
 
 .btn-repo{
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
 }
 
 .btn-repo:hover{
-  background-color: rgb(163, 162, 162);
-  border: 1px solid rgb(163, 162, 162);
-  color: black;
+  background-color: rgb(126, 1, 105);
+  border: 1px solid white;
+  color: white;
 }
 
-.buttons-jobs{
+.buttons-j{
   margin: auto;
-  text-align: center
+  text-align: right
 }
 
 .parrafo-pad{
   padding: 20px 0 20px 0;
-}
-
-/*estilos a contact me*/
-
-.contact-me{
-  background-image: url(../assets/img/fondo-estrellas.jpg);
-  background-size: cover;
-  color: white;
-  padding: 100px 0 50px 0;
-  margin-top: -50px;
-  text-align: center;
-}
-
-.contact-me h4{
-  font-size: 22px;
+  margin: auto;
+  text-align: right
 }
 
 .icon-size{
