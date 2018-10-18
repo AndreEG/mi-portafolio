@@ -46,7 +46,4 @@ window.addEventListener('load', function() {
      return false;
   }
 
-// boton de back
-
-
   });
