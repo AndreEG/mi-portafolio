@@ -102,7 +102,7 @@ p{
 }
 
 .solution p{
-  font-size: 20px;
+  font-size: 17px;
   margin: 20px 0;
 }
 
@@ -181,7 +181,40 @@ p{
   font-size: 20px;
   margin: 20px 0;
 }
+/*taxitel*/
 
+.taxitel{
+  padding: 0;
+}
+
+.trabajo{
+  display: inline;
+}
+
+.problemas{
+  padding: 60px 0;
+}
+
+.morado{
+  background-color: rgb(126, 1, 105);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 5px 5px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.morado p{
+  font-size: 20px
+}
+
+.morado-texto{
+  padding: 25px 0 30px 0;
+}
+
+.antes{
+  margin: 15px 0
+}
 /*Estilos a other*/
 
 .jobs2{
@@ -249,7 +282,8 @@ p{
 
 .buttons-j{
   margin: auto;
-  text-align: right
+  text-align: right;
+  padding-top: 30px
 }
 
 .parrafo-pad{
@@ -310,6 +344,14 @@ p{
     
   }
 
+  .morado-texto{
+    padding: 25px 0 0 0;
+  }
+
+  .taxitel{
+    padding: 0 40px;
+  }
+
   #menu{
     width: 350px;
     position: absolute;
@@ -329,6 +371,10 @@ p{
     top: 50%;
     transform: translateY(-60%);
     text-align: left;
+  }
+
+  .taxitel{
+    padding: 0 80px;
   }
 
   .animate-1{
