@@ -215,6 +215,38 @@ p{
 .antes{
   margin: 15px 0
 }
+
+/*ocultar y aparecer en taxitel*/
+
+.titulos h3{
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.activado{
+ border: 2px solid rgb(126, 1, 105);
+ background-color: rgb(126, 1, 105);
+ color: white;
+ border-radius: 10px;
+}
+
+.desactivado{
+  border: 2px solid rgb(126, 1, 105);
+  color: rgb(126, 1, 105);
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.ocultar{
+  display: none;
+}
+
+.mostrar{
+  display: block;
+}
+
 /*Estilos a other*/
 
 .jobs2{
